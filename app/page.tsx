@@ -25,8 +25,16 @@ export default function TheBeaksSneakPeeks() {
 
   // Approved Community Arts Gallery
   const communityGallery = [
-    { url: "https://ejtbprqsjgnckqbnwjrd.supabase.co/storage/v1/object/sign/contest-art/5a6056af-5dc7-4d95-b4ef-a19f6f7fd6dd/0174ddf5-be45-4252-93fc-062b3886642a/cbcdf0f9-ef94-4217-a915-c71f392d4104.gif?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9lMzY4MzIyNS03ZDFiLTRjOTMtYmI1OS0zZjI3NjFhNWM0ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJjb250ZXN0LWFydC81YTYwNTZhZi01ZGM3LTRkOTUtYjRlZi1hMTlmNmY3ZmQ2ZGQvMDE3NGRkZjUtYmU0NS00MjUyLTkzZmMtMDYyYjM4ODY2NDJhL2NiY2RmMGY5LWVmOTQtNDIxNy1hOTE1LWM3MWYzOTJkNDEwNC5naWYiLCJpYXQiOjE3NzkxMDEwOTgsImV4cCI6MTc3OTE0NDI5OH0.iYTkXkRQPWnIPD98tydEla16hAez9rUCO7MmxdTJZ8s", title: "Pixel Beak.gif", artist: "@blurnplay" },
-    { url: "https://ejtbprqsjgnckqbnwjrd.supabase.co/storage/v1/object/sign/contest-art/5a6056af-5dc7-4d95-b4ef-a19f6f7fd6dd/57a14a3b-f290-4959-a72f-6e86c0ca9b58/adac113f-5ffe-4134-88f4-e8482985526e.gif?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9lMzY4MzIyNS03ZDFiLTRjOTMtYmI1OS0zZjI3NjFhNWM0ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJjb250ZXN0LWFydC81YTYwNTZhZi01ZGM3LTRkOTUtYjRlZi1hMTlmNmY3ZmQ2ZGQvNTdhMTRhM2ItZjI5MC00OTU5LWE3MmYtNmU4NmMwY2E5YjU4L2FkYWMxMTNmLTVmZmUtNDEzNC04OGY0LWU4NDgyOTg1NTI2ZS5naWYiLCJpYXQiOjE3NzkxMDEwOTgsImV4cCI6MTc3OTE0NDI5OH0.Kp33t78GA8Ig_W36f2_-eVytNG0GahtpUzntqUhA5gg", title: "steampunk Pixel Beak", artist: "@Natt_369_" },
+    { 
+      url: "https://beaks.site/_next/image?url=https%3A%2F%2Fejtbprqsjgnckqbnwjrd.supabase.co%2Fstorage%2Fv1%2Fobject%2Fsign%2Fcontest-art%2F5a6056af-5dc7-4d95-b4ef-a19f6f7fd6dd%2F0174ddf5-be45-4252-93fc-062b3886642a%2Fcbcdf0f9-ef94-4217-a915-c71f392d4104.gif%3Ftoken%3DeyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9lMzY4MzIyNS03ZDFiLTRjOTMtYmI1OS0zZjI3NjFhNWM0ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJjb250ZXN0LWFydC81YTYwNTZhZi01ZGM3LTRkOTUtYjRlZi1hMTlmNmY3ZmQ2ZGQvMDE3NGRkZjUtYmU0NS00MjUyLTkzZmMtMDYyYjM4ODY2NDJhL2NiY2RmMGY5LWVmOTQtNDIxNy1hOTE1LWM3MWYzOTJkNDEwNC5naWYiLCJpYXQiOjE3NzkxNjY3ODcsImV4cCI6MTc3OTIwOTk4N30.DxFahh8WOB2_KqFRaRYa1QLXOqwl7svZti-_DX7lDBI&w=640&q=75", 
+      title: "Pixel Beak.gif", 
+      artist: "@blurnplay" 
+    },
+    { 
+      url: "https://beaks.site/_next/image?url=https%3A%2F%2Fejtbprqsjgnckqbnwjrd.supabase.co%2Fstorage%2Fv1%2Fobject%2Fsign%2Fcontest-art%2F5a6056af-5dc7-4d95-b4ef-a19f6f7fd6dd%2F57a14a3b-f290-4959-a72f-6e86c0ca9b58%2Fadac113f-5ffe-4134-88f4-e8482985526e.gif%3Ftoken%3DeyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9lMzY4MzIyNS03ZDFiLTRjOTMtYmI1OS0zZjI3NjFhNWM0ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJjb250ZXN0LWFydC81YTYwNTZhZi01ZGM3LTRkOTUtYjRlZi1hMTlmNmY3ZmQ2ZGQvNTdhMTRhM2ItZjI5MC00OTU5LWE3MmYtNmU4NmMwY2E5YjU4L2FkYWMxMTNmLTVmZmUtNDEzNC04OGY0LWU4NDgyOTg1NTI2ZS5naWYiLCJpYXQiOjE3NzkxNjY3ODcsImV4cCI6MTc3OTIwOTk4N30.2fLeyTfqEvNOg_tOemetHLuWFlPNQOFZD-rvfJRt_iU&w=640&q=75", 
+      title: "steampunk Pixel Beak", 
+      artist: "@Natt_369_" 
+    },
     { url: "https://pbs.twimg.com/media/HH1lUv7WkAEn2se?format=jpg&name=360x360", title: "Favorite Beak with Combination of unused tiles", artist: "@erfann5427" },
     { url: "https://pbs.twimg.com/media/HIDQ2qVagAAXW8o?format=jpg&name=360x360", title: "A Leg Gives Beak Life", artist: "@dhirajleg" },
     { url: "https://pbs.twimg.com/media/HID6777W0AAOzg8?format=jpg&name=large", title: "The Steamforged Beak", artist: "@batt004" },
@@ -59,30 +67,7 @@ export default function TheBeaksSneakPeeks() {
     { url: "https://pbs.twimg.com/media/HITnNihW0AAY-bG?format=jpg&name=large", title: "Twani zuka", artist: "@verah_tee" },
     { url: "https://pbs.twimg.com/media/HIUFyVyXkAAxWsd?format=jpg&name=large", title: "Dreamlike feel", artist: "@JSmithGuru" },
     { url: "https://pbs.twimg.com/media/HISW62Na8AISaaB?format=jpg&name=large", title: "Witch's beak", artist: "@lucas950825" },
-    { url: "https://ejtbprqsjgnckqbnwjrd.supabase.co/storage/v1/object/sign/contest-art/5a6056af-5dc7-4d95-b4ef-a19f6f7fd6dd/c7bf8415-b7e1-47e9-b30a-242b80d880f3/1fdfc725-86c5-417a-9c3e-8f945f97330c.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9lMzY4MzIyNS03ZDFiLTRjOTMtYmI1OS0zZjI3NjFhNWM0ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJjb250ZXN0LWFydC81YTYwNTZhZi01ZGM3LTRkOTUtYjRlZi1hMTlmNmY3ZmQ2ZGQvYzdiZjg0MTUtYjdlMS00N2U5LWIzMGEtMjQyYjgwZDg4MGYzLzFmZGZjNzI1LTg2YzUtNDE3YS05YzNlLThmOTQ1Zjk3MzMwYy5qcGVnIiwiaWF0IjoxNzc5MTAxMDk4LCJleHAiOjE3NzkxNDQyOTh9.C-X7xAliG_fZorwRVxfdK7FVPJE48GrO4NPyjctqBqQ", title: "Heist", artist: "@T0kenPrince" },
-    { url: "https://pbs.twimg.com/media/HIRzviQaYAANeee?format=jpg&name=large", title: "Soirée", artist: "@MynddNFT" },
-    { url: "https://pbs.twimg.com/media/HIWJeUKbgAE3Kx5?format=jpg&name=large", title: "Surreal Beaks", artist: "@tbtphaha" },
-    { url: "https://ejtbprqsjgnckqbnwjrd.supabase.co/storage/v1/object/sign/contest-art/5a6056af-5dc7-4d95-b4ef-a19f6f7fd6dd/f1269b6e-2f75-49f3-865a-7bee6dd2dcf9/eb90b47d-c5ae-4f34-bee3-ef5543cf0ba7.gif?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9lMzY4MzIyNS03ZDFiLTRjOTMtYmI1OS0zZjI3NjFhNWM0ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJjb250ZXN0LWFydC81YTYwNTZhZi01ZGM3LTRkOTUtYjRlZi1hMTlmNmY3ZmQ2ZGQvZjEyNjliNmUtMmY3NS00OWYzLTg2NWEtN2JlZTZkZDJkY2Y5L2ViOTBiNDdkLWM1YWUtNGYzNC1iZWUzLWVmNTU0M2NmMGJhNy5naWYiLCJpYXQiOjE3NzkxMDEwOTgsImV4cCI6MTc3OTE0NDI5OH0.PF2YWRev9UO0wG3d7DhUosDE1JsN9nJK8N8nW-RTzeg", title: "The Beak Atelier", artist: "@maraoi_" },
-    { url: "https://pbs.twimg.com/media/HITa_0tWUAEgs__?format=jpg&name=large", title: "Beaks Piece", artist: "@charlessel15864" },
-    { url: "https://pbs.twimg.com/media/HIWjEdWWcAAuAjK?format=jpg&name=medium", title: "3D blender art", artist: "@yourboyjozy" },
-    { url: "https://pbs.twimg.com/media/HIT6k6uX0AAQqha?format=jpg&name=4096x4096", title: "Chrome metallic beak", artist: "@Beebs1S" },
-    { url: "https://pbs.twimg.com/media/HIWwo98aQAAqZca?format=jpg&name=4096x4096", title: "Ancient Statue Of The Beak", artist: "@JinxLockIn" },
-    { url: "https://pbs.twimg.com/media/HIW_DyYbQAAcBXo?format=jpg&name=4096x4096", title: "Untitled", artist: "@_naina_20" },
-    { url: "https://pbs.twimg.com/media/HIW7_OubQAASb2H?format=jpg&name=4096x4096", title: "Lake of goodness", artist: "@rohitisright" },
-    { url: "https://pbs.twimg.com/media/HIXYfXyXkAA114N?format=jpg&name=large", title: "CyberBeak", artist: "@Thee_Trailz" },
-    { url: "https://pbs.twimg.com/media/HIXe3WlXEAAOxsS?format=jpg&name=medium", title: "Ancient Beak", artist: "@velori_" },
-    { url: "https://pbs.twimg.com/media/HIXU0XhbsAAGonX?format=jpg&name=large", title: "Passions With Beaks", artist: "@envyonthetop" },
-    { url: "https://pbs.twimg.com/media/HIXg-CNWUAA3QuU?format=jpg&name=large", title: "Before She Reached Down", artist: "@DaniiOnChain" },
-    { url: "https://pbs.twimg.com/media/HIXlkNSWMAACuBx?format=jpg&name=large", title: "Cosmo Beak - the space ranger", artist: "@Spencer_de_Noob" },
-    { url: "https://pbs.twimg.com/media/HIXmtEqWMAEWC6R?format=jpg&name=large", title: "“THE EVOLVING PHASE”", artist: "@heisjohnmayor" },
-    { url: "https://pbs.twimg.com/media/HIljBtma8AAeKWG?format=jpg&name=large", title: "Future of Beak", artist: "@fauzanbunz" },
-    { url: "https://pbs.twimg.com/media/HIYWZRTWwAA-N7Q?format=jpg&name=large", title: "tropical paradise", artist: "@DanielSam3031" },
-    { url: "https://pbs.twimg.com/media/HIYhimfWMAESNj4?format=jpg&name=large", title: "Lazarus Beak", artist: "@adebisi_olami" },
-    { url: "https://pbs.twimg.com/media/HIYgYO1WgAAQIdD?format=jpg&name=large", title: "Kingpin Beak", artist: "@Nickle_Xin" },
-    { url: "https://pbs.twimg.com/media/HISpFSGXUAAT0ai?format=jpg&name=large", title: "tonydrawsart", artist: "@Tonyy_Draws" },
-    { url: "https://pbs.twimg.com/media/HIY-aJ4aEAAzalZ?format=jpg&name=4096x4096", title: "THE GOLDEN BEAK", artist: "@Tanjiro3060" },
-    { url: "https://pbs.twimg.com/media/HIapvBKa8AESlbl?format=jpg&name=large", title: "B Beaks", artist: "@0xjamp" },
-    { url: "https://pbs.twimg.com/media/HIa2mdHbIAAzWXS?format=jpg&name=4096x4096", title: "The Beaks collage", artist: "@emptystdotcom" }
+    { url: "https://ejtbprqsjgnckqbnwjrd.supabase.co/storage/v1/object/sign/contest-art/5a6056af-5dc7-4d95-b4ef-a19f6f7fd6dd/f1269b6e-2f75-49f3-865a-7bee6dd2dcf9/eb90b47d-c5ae-4f34-bee3-ef5543cf0ba7.gif?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9lMzY4MzIyNS03ZDFiLTRjOTMtYmI1OS0zZjI3NjFhNWM0ZTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJjb250ZXN0LWFydC81YTYwNTZhZi01ZGM3LTRkOTUtYjRlZi1hMTlmNmY3ZmQ2ZGQvZjEyNjliNmUtMmY3NS00OWYzLTg2NWEtN2JlZTZkZDJkY2Y5L2ViOTBiNDdkLWM1YWUtNGYzNC1iZWUzLWVmNTU0M2NmMGJhNy5naWYiLCJpYXQiOjE3NzkxNjY3ODcsImV4cCI6MTc3OTIwOTk4N30.iaypZ6flFuzES1mM4RbhPdaBmG7o4CDN1KUa8RJHrEc&w=640&q=75", title: "The Beak Atelier", artist: "@maraoi_" }
   ];
 
   // DIMA'S Archive
@@ -206,7 +191,7 @@ export default function TheBeaksSneakPeeks() {
 
       {/* 1/1 Revealed */}
       <div className="max-w-6xl mx-auto px-4 mb-16">
-        <h2 className="text-3xl md:text-4xl text-center mb-8"> Beaks Art 1/1 Reveal 🦩</h2>
+        <h2 className="text-3xl md:text-4xl text-center mb-8">1/1 Revealed</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {oneOfOnes.map((item, i) => (
             <div key={i} onClick={() => openModal(item, i, 'oneOfOnes')} className="cursor-pointer rounded-3xl overflow-hidden border border-white/20 hover:border-white transition-all">
@@ -218,7 +203,7 @@ export default function TheBeaksSneakPeeks() {
 
       {/* Approved Community Arts Gallery */}
       <div className="max-w-7xl mx-auto px-4 mb-16">
-        <h2 className="text-4xl md:text-5xl text-center mb-10">Approved Community Arts Gallery🦩</h2>
+        <h2 className="text-4xl md:text-5xl text-center mb-10">Approved Community Arts Gallery</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6">
           {communityGallery.map((item, i) => (
             <div 
@@ -289,8 +274,8 @@ export default function TheBeaksSneakPeeks() {
         </a>
       </div>
 
-      <div className="text-center text-white/75 text-lg mt-16 px-4">
-        Fan-made archive for the Beaks community • By @tbbboo1 🦩
+      <div className="text-center text-white/60 text-base mt-16 px-4">
+        Fan-made archive for the Beaks community • By @iboo1 🦩
       </div>
 
       {/* Modal */}

@@ -21,6 +21,7 @@ export default function TheBeaksSneakPeeks() {
   const oneOfOnes = [
     { url: "https://pbs.twimg.com/media/HIMZOqvW0AArEP0.jpg", title: "First 1/1 Revealed", artist: "@DKashtalyan" },
     { url: "https://pbs.twimg.com/media/HISXDI8XkAALUPv.jpg", title: "Second 1/1 Revealed", artist: "@DKashtalyan" },
+    { url: "https://pbs.twimg.com/media/HIr9MobWMAAj0Po.jpg", title: "Third 1/1 Revealed", artist: "@DKashtalyan" }
   ];
 
   // Approved Community Arts Gallery
@@ -189,17 +190,17 @@ export default function TheBeaksSneakPeeks() {
         </div>
       </div>
 
-      {/* 1/1 Revealed */}
-      <div className="max-w-6xl mx-auto px-4 mb-16">
-        <h2 className="text-3xl md:text-4xl text-center mb-8">Beaks Art1/1 Reveal 🦩</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {oneOfOnes.map((item, i) => (
-            <div key={i} onClick={() => openModal(item, i, 'oneOfOnes')} className="cursor-pointer rounded-3xl overflow-hidden border border-white/20 hover:border-white transition-all">
-              <img src={item.url} className="w-full" />
-            </div>
-          ))}
-        </div>
+    {/* 1/1 Revealed */}
+<div className="max-w-6xl mx-auto px-4 mb-16">
+  <h2 className="text-3xl md:text-4xl text-center mb-8">Beaks Arts 1/1 Revealed 🦩</h2>
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    {oneOfOnes.map((item, i) => (
+      <div key={i} onClick={() => openModal(item, i, 'oneOfOnes')} className="cursor-pointer rounded-3xl overflow-hidden border border-white/20 hover:border-white transition-all">
+        <img src={item.url} className="w-full" />
       </div>
+    ))}
+  </div>
+</div>
 
       {/* Approved Community Arts Gallery */}
       <div className="max-w-7xl mx-auto px-4 mb-16">
